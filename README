@@ -1,0 +1,6 @@
+pnpm i 
+pnpm i -D typescript tsx
+pnpm tsc --init เพิ่ม tsconfig.json
+pnpm i express dotenv
+pnpm i -D @types/express @types/node
+pnpm i zod
