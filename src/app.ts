@@ -4,8 +4,11 @@ import { notFound } from './middlewares/notfound.middleware.js';
 import { error } from './middlewares/errormiddlewares.js';
 import cors from 'cors'
 import morgan from 'morgan'
+import { authRouter } from './router/auth.router.js';
 
 const app = express();
+
+app.use('/auth', authRouter)
 
 app.use(express.json());
 app.use(morgan('dev'))

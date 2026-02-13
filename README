@@ -4,3 +4,12 @@ pnpm tsc --init เพิ่ม tsconfig.json
 pnpm i express dotenv
 pnpm i -D @types/express @types/node
 pnpm i zod
+
+git init
+git add . 
+git commit -m ""
+--------------------------
+create github remote
+--------------------------
+git remote add origin https://github.com/Pratchaya007/ddsfsdf.git
+git push -u origin main
